@@ -10,7 +10,7 @@ public class Steps {
 	@Given("^I want to open google home page$")
 	public void i_want_to_open_google_home_page() throws Throwable {
 		System.out.println("------Start Testing--------");
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\Downloads\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","src\\test\\resources\\Drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://www.google.com");
 		System.out.println("------First Maven test Testing--------");
