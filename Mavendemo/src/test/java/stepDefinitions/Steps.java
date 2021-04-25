@@ -13,7 +13,7 @@ public class Steps {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\Downloads\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://www.google.com");
-		System.out.println("------Start Testing--------");
+		System.out.println("------First Maven test Testing--------");
 		driver.quit();
 		System.out.println("------End Testing--------");
 	    
